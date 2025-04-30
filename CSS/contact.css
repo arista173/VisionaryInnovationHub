@@ -1,0 +1,45 @@
+@media (max-width: 840px) {
+    table {
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 590px) {
+    table {
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 0.4em;
+    }
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+thead {
+    background-color: #7ec4cf;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #d1cfe2;
+}
+tbody > tr:nth-child(even) {
+    background-color: white;
+}
+tbody tr:hover {
+    background-color: #d4afb9;
+}
+.contact p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}

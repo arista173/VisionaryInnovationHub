@@ -1,0 +1,88 @@
+.welcome {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.homewelcome {
+    display: block;
+    background-color:#d1cfe2;
+    padding: 10px 10px;
+}
+@media (min-width: 810px) {
+    .basicinformation {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 1.5em;
+    }
+    .location {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 45%;
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 810px){
+    .basicinformation {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 1.3em;
+    }
+    .location {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 40%;
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 600px){
+    .basicinformation {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 50%;
+        font-size: 1em;
+    }
+    .location {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 40%;
+        font-size: 1em;
+    }
+}
+@media (max-width: 455px){
+    .basicinformation {
+        padding: 10px 10px;
+        display: block;
+        float: left;
+        width: 45%;
+        font-size: 0.7em;
+    }
+    .location {
+        display: block;
+        float: left;
+        padding: 10px 10px;
+        width: 40%;
+        font-size: 0.7em;
+    }
+}
+dl {
+    padding: 0;
+    margin: 0 auto;
+}
+dt {
+    font-weight: bold;
+}
+dd img {
+    width: 85%;
+    height: auto;
+}
+a img {
+    width: 70%;
+    height: auto;
+}

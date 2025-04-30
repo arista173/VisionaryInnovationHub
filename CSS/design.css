@@ -1,0 +1,38 @@
+.name {
+    padding: 10px 10px;
+    text-align: center;
+}
+.explanationtable {
+    padding: 10px 10px;
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+thead {
+    background-color: #7ec4cf;
+}
+.table1 tbody > tr:nth-child(odd) {
+    background-color: #d1cfe2;
+}
+.table1 tbody > tr:nth-child(even) {
+    background-color: white;
+}
+.subtitle {
+    background-color: #d1cfe2;
+}
+.table2 tbody, .table3 tbody {
+    background-color: white;
+}
+.table1 tbody tr:hover, .table2 tbody tr:hover, .table3 tbody tr:hover {
+    background-color: #d4afb9;
+}
+h2 {
+    text-align: center;
+}

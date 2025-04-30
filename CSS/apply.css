@@ -1,0 +1,135 @@
+@media (min-width: 370px) {
+    .apply h3 {
+        margin: 0;
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        border: 1px solid black;
+        border-bottom: 0px;
+        border-radius: 4px 4px 0 0;
+        background-color: #d1cfe2;
+    }
+    form {
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 4px;
+        width: 30%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    form label {
+        font-size: 1em;
+    }
+}
+@media (max-width: 680px) {
+    .apply h3 {
+        margin: 0;
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        border: 1px solid black;
+        border-bottom: 0px;
+        border-radius: 4px 4px 0 0;
+        background-color: #d1cfe2;
+    }
+    form {
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 4px;
+        width: 28%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    form label {
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 515px) {
+    form {
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 4px;
+        width: 25%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    form label {
+        font-size: 0.5em;
+    }
+}
+.zone {
+    width: 80%;
+}
+.company {
+    width: 20%;
+}
+.applywelcome {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.apply {
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.apply h2 {
+    padding-left: 10px;
+}
+.resulting {
+    padding: 10px 10px;
+}
+form {
+    background-color: #cde4eb;
+}
+form img {
+    width:200px;
+    max-width: 75%;
+    height: auto;
+}
+form input {
+    max-width: 50%;
+}
+table {
+    position: relative;
+    clear: both;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #d1cfe2;
+}
+tbody > tr:nth-child(even) {
+    background-color: white;
+}
+thead {
+    background-color: #7ec4cf;
+}
+tbody tr:hover {
+    background-color: #d4afb9;
+}
+button {
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+.resulting h2 {
+    clear: both;
+}
+footer {
+    background-color: #9cadce;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0;
+    color: white;
+    position: relative;
+    clear: both;
+}

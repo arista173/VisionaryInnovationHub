@@ -1,0 +1,101 @@
+@media (min-width: 870px) {
+    .promotion h2 {
+        padding: 10px 10px;
+        display: block;
+        width: 45%;
+        float: left;
+        font-size: 1.5em;
+    }
+    .promotion video {
+        padding: 10px 10px;
+        display: block;
+        max-width: 50%;
+        float: left;
+    }
+}
+@media (max-width: 870px) {
+    .promotion h2 {
+        padding: 10px 10px;
+        display: block;
+        width: 50%;
+        float: left;
+        font-size: 1em;
+    }
+    .promotion video {
+        padding: 10px 10px;
+        display: block;
+        max-width: 40%;
+        float: left;
+    }
+    table {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        clear: both;
+        border-collapse: collapse;
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 705px) {
+    table {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        clear: both;
+        border-collapse: collapse;
+        font-size: 0.5em;
+    }
+}
+@media (max-width: 455px) {
+    .promotion h2 {
+        padding: 10px 10px;
+        display: block;
+        width: 50%;
+        float: left;
+        font-size: 0.8em;
+    }
+    .promotion video {
+        padding: 10px 10px;
+        display: block;
+        max-width: 30%;
+        float: left;
+    }
+    table {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        clear: both;
+        border-collapse: collapse;
+        font-size: 0.3em;
+    }
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #d1cfe2;
+}
+tbody > tr:nth-child(even) {
+    background-color: white;
+}
+thead {
+    background-color: #7ec4cf;
+}
+tbody tr:hover {
+    background-color: #d4afb9;
+}
+#title {
+    text-align: center;
+    font-size: 30px;
+}
+.promotion video {
+    width: 700px;
+}
