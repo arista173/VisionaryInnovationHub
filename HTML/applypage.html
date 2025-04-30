@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="WANGSADJAJA Arista">
+    <meta name="description" content="Visionary Innovation Hub Apply Page">
+    <meta name="keywords" content="Visionary Innovation Hub">
+    <title> Visionary Innovation Hub - Apply Page </title>
+    <link rel="stylesheet" href="../CSS/apply.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../CSS/printApply.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="../CSS/header_footer.css" type="text/css" media="all" />
+    <script src="../scripts/apply.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Visionary Innovation Hub Logo" class="headerimage">
+        <h1> Visionary Innovation Hub </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html"> Home </a></li>
+            <li><a href="./aboutpage.html"> About </a></li>
+            <li><a href="./applypage.html"> Apply </a></li>
+            <li><a href="./visitpage.html"> Visit </a></li>
+            <li><a href="./informationpage.html"> Information </a></li>
+            <li><a href="./contactpage.html"> Contact </a></li>
+        </ul>
+    </nav>
+    
+    <div class="applywelcome">
+        <p> Welcome to VIH </p>
+    </div>
+    
+    <div class="apply">
+        <h2> Common choices of interns </h2>
+        <h3 class="tech headtitle"> Technology Zone </h3>
+        <h3 class="inn headtitle"> Innovation Zone </h3>
+        <h3 class="eco headtitle"> Ecology Zone </h3>
+        <div class="technologyzone formrank">
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/techwave.png" alt="Techwave"><br>
+                <label for="techwave"> TechWave Solutions </label><br>
+                <input type="number" id="techwave" name="techwave">
+                <button onclick="process('techwave')"> rank of choice </button><br>
+            </form>
+                
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/quantum.png" alt="Quantum"><br>
+                <label for="quantum"> Quantum Leap Technologies </label><br>
+                <input type="number" id="quantum" name="quantum">
+                <button onclick="process('quantum')"> rank of choice </button><br>
+            </form>
+                
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/cyberguard.png" alt="Cyberguard"><br>
+                <label for="cyberguard"> CyberGuard Systems </label><br>
+                <input type="number" id="cyberguard" name="cyberguard">
+                <button onclick="process('cyberguard')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/smartcity.png" alt="Smartcity"><br>
+                <label for="smartcity"> SmartCity Innovations </label><br>
+                <input type="number" id="smartcity" name="smartcity">
+                <button onclick="process('smartcity')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/connectify.png" alt="Connectify"><br>
+                <label for="connectify"> Connectify Networks </label><br>
+                <input type="number" id="connectify" name="connectify">
+                <button onclick="process('connectify')"> rank of choice </button><br>
+            </form>
+        </div>
+
+        <div class="innovationzone formrank">
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/ecotech.png" alt="Ecotech"><br>
+                <label for="ecotech"> EcoTech Labs </label><br>
+                <input type="number" id="ecotech" name="ecotech">
+                <button onclick="process('ecotech')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/healthsphere.png" alt="Healthsphere"><br>
+                <label for="healthsphere"> HealthSphere Innovations </label><br>
+                <input type="number" id="healthsphere" name="healthsphere">
+                <button onclick="process('healthsphere')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/createch.png" alt="Createch"><br>
+                <label for="createch"> CreaTech Studio </label><br>
+                <input type="number" id="createch" name="createch">
+                <button onclick="process('createch')"> rank of choice </button><br>
+            </form>
+        </div>
+
+        <div class="ecologyzone formrank" onsubmit="event.preventDefault()">
+            <form method="get" action="#">
+                <img src="../images/greenfuture.png" alt="Greenfuture"><br>
+                <label for="greenfuture"> GreenFuture Enterprises </label><br>
+                <input type="number" id="greenfuture" name="greenfuture">
+                <button onclick="process('greenfuture')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/waterwise.png" alt="Waterwise"><br>
+                <label for="waterwise"> WaterWise Solutions </label><br>
+                <input type="number" id="waterwise" name="waterwise">
+                <button onclick="process('waterwise')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/recycle.png" alt="Recycle"><br>
+                <label for="recycle"> ReCycle Innovations </label><br>
+                <input type="number" id="recycle" name="recycle">
+                <button onclick="process('recycle')"> rank of choice </button><br>
+            </form>
+
+            <form method="get" action="#" onsubmit="event.preventDefault()">
+                <img src="../images/ecobuild.png" alt="Ecobuild"><br>
+                <label for="ecobuild"> EcoBuild Technologies </label><br>
+                <input type="number" id="ecobuild" name="ecobuild">
+                <button onclick="process('ecobuild')"> rank of choice </button><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="resulting">
+        <h2> Your chosen companies: </h2>
+        <h3 id="lastchange"> Last change time: </h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th> Zone </th>
+                    <th> Company </th>
+                    <th> Rank </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="zone" id="z1"></td>
+                    <td class="company" id="c1"></td>
+                    <td> 1 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z2"></td>
+                    <td class="company" id="c2"></td>
+                    <td> 2 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z3"></td>
+                    <td class="company" id="c3"></td>
+                    <td> 3 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z4"></td>
+                    <td class="company" id="c4"></td>
+                    <td> 4 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z5"></td>
+                    <td class="company" id="c5"></td>
+                    <td> 5 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z6"></td>
+                    <td class="company" id="c6"></td>
+                    <td> 6 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z7"></td>
+                    <td class="company" id="c7"></td>
+                    <td> 7 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z8"></td>
+                    <td class="company" id="c8"></td>
+                    <td> 8 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z9"></td>
+                    <td class="company" id="c9"></td>
+                    <td> 9 </td>
+                </tr>
+                <tr>
+                    <td class="zone" id="z10"></td>
+                    <td class="company" id="c10"></td>
+                    <td> 10 </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 id="totalapplied"> Total Number of Companies Applied: 0 </h3>
+        <button id="subbutton"> submit </button>
+        <button id="clearbutton"> clear </button>
+        <br><br>
+        <p id="message"></p>
+    </div>
+
+    <footer>
+        <img src="../images/footer_logo.png" alt="Visionary Innovation Hub Footer Logo">
+        <p> &copy; CityU 2024 - sources of image and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by
+        <a href="./designpage.html"><span> WANGSADJAJA Arista </span></a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="WANGSADJAJA Arista">
+    <meta name="description" content="Visionary Innovation Hub Design Page">
+    <meta name="keywords" content="Visionary Innovation Hub">
+    <title> Visionary Innovation Hub - Design Page </title>
+    <link rel="stylesheet" href="../CSS/design.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../CSS/header_footer.css" type="text/css" media="all" />
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Visionary Innovation Hub Logo" class="headerimage">
+        <h1> Visionary Innovation Hub </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html"> Home </a></li>
+            <li><a href="./aboutpage.html"> About </a></li>
+            <li><a href="./applypage.html"> Apply </a></li>
+            <li><a href="./visitpage.html"> Visit </a></li>
+            <li><a href="./informationpage.html"> Information </a></li>
+            <li><a href="./contactpage.html"> Contact </a></li>
+        </ul>
+    </nav>
+    
+    <div class="name">
+        <h2> Design Page </h2>
+        <h3> Name: WANGSADJAJA Arista </h3>
+        <h3> SID: 58628373 </h3>
+    </div>
+
+    <div class="explanationtable">
+
+        <hr>
+        <h2> Explanation of CSS Style </h2>
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th> Techniques </th>
+                    <th> Explanation </th>
+                    <th> Line No. </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> background: -webkit-linear-gradient <br> background: -moz-linear-gradient </td>
+                    <td> making the background color a gradient color </td>
+                    <td> header_footer.css (line 14, 15, 39, 40) </td>
+                </tr>
+                <tr>
+                    <td> navigation bar active </td>
+                    <td> underline the text when the block is being clicked </td>
+                    <td> header_footer.css (line 59) </td>
+                </tr>
+                <tr>
+                    <td> navigation bar hover </td>
+                    <td> changing the background color of the block when the cursor hovers in the block </td>
+                    <td> header_footer.css (line 56) </td>
+                </tr>
+                <tr>
+                    <td> navigation bar visited </td>
+                    <td> changing the color of the text after the page is visited </td>
+                    <td> header_footer.css (line 62) </td>
+                </tr>
+                <tr>
+                    <td> navigation bar & footer text-decoration: none </td>
+                    <td> remove the underline on the link </td>
+                    <td> header_footer (line 60, 85), printApply.css (line 53) </td>
+                </tr>
+                <tr>
+                    <td> @media (min-width: ..px) </td>
+                    <td> applying different styles for different minimium screen sizes (responsive website page) </td>
+                    <td> index.css (line 10), about.css, apply.css, program.css (line 1), visit.css (line 1, 21) </td>
+                </tr>
+                <tr>
+                    <td> @media (max-width: ..px) </td>
+                    <td> applying different styles for different maximum screen sizes (responsive website page) </td>
+                    <td> header_footer.css (line 65), index.css (line 26, 42, 58), about.css (line 21, 39, 58), apply.css (line 25, 49), 
+                        visit.css (line 6, 11, 16, 30, 39, 48, 57), program.css (line 16, 39, 49), contact.css (line 1, 10) </td>
+                </tr>
+                <tr>
+                    <td> tbody > tr:nth-child(odd) </td>
+                    <td> changing the background color of the odd row in the table </td>
+                    <td> about.css (line 86), apply.css (line 105), program.css (line 83), contact.css (line 32), design.css (line 21) </td>
+                </tr>
+                <tr>
+                    <td> tbody > tr:nth-child(even) </td>
+                    <td> changing the background color of the even row in the table </td>
+                    <td> about.css (line 89), apply.css (line 108), program.css (line 86), contact.css (line 35), design.css (line 24) </td>
+                </tr>
+                <tr>
+                    <td> table border </td>
+                    <td> adding a border to the table </td>
+                    <td> about.css (line 78), apply.css (line 102), printApply.css (line 33), program.css (line 80), contact.css (line 26), design.css (line 15) </td>
+                </tr>
+                <tr>
+                    <td> tr hover </td>
+                    <td> changing the background color of the table row when the cursor is hovering on the specified row </td>
+                    <td> about.css (line 93), apply.css (line 114), program.css (line 92), contact.css (line 38), design.css (line 33) </td>
+                </tr>
+                <tr>
+                    <td> display: none </td>
+                    <td> hide unecessary element from the page </td>
+                    <td> apply.css (line 142) -> deleted , printApply.css (line 21) </td>
+                </tr>
+                <tr>
+                    <td> form hover </td>
+                    <td> changing the background color of the form block when the cursor is hovering on it </td>
+                    <td> apply.css (line 85) -> deleted </td>
+                </tr>
+                <tr>
+                    <td> header hover </td>
+                    <td> changing the background color and font color of the heading when the cursor is hovering on the header block </td>
+                    <td> apply.css (line 156) -> deleted </td>
+                </tr>
+                <tr>
+                    <td> #tech:hover ~ .technologyzone <br> #inn:hover ~ .innovationzone <br> #eco:hover ~ .ecologyzone </td>
+                    <td> when the heading is hovered, the corresponding block will appear </td>
+                    <td> apply.css (line 163) -> deleted </td>
+                </tr>
+                <tr>
+                    <td> #tech:has(~ .technologyzone:hover) <br> #inn:has(~ .innovationzone:hover) <br> #eco:has(~ .ecologyzone:hover) </td>
+                    <td> the header will still be in different color when the cursor hovers over the commpany </td>
+                    <td> apply.css (line 167) -> deleted </td>
+                </tr>
+                <tr>
+                    <td> button background-color: transparent </td>
+                    <td> removing the background of the button and making it transparent </td>
+                    <td> apply.css (line 119) </td>
+                </tr>
+                <tr>
+                    <td> multi column layout using float and arranging the width </td>
+                    <td> making the layout of the website into 2 parts (left and right) </td>
+                    <td> index.css (line 10-71), about.css (line 1-74), visit.css (line 66-77), program.css (line 1-69) </td>
+                </tr>
+                <tr>
+                    <td> font-family </td>
+                    <td> changing the font for the body part </td>
+                    <td> header_footer.css (line 5), printApply.css (line 4) </td>
+                </tr>
+                <tr>
+                    <td> @keyframes header </td>
+                    <td> creating a keyframe animation for the header title </td>
+                    <td> header_footer.css (line 8) </td>
+                </tr>
+                <tr>
+                    <td> animation: header 2s infinite </td>
+                    <td> adding animation to the header with the duration of 2s and infinite </td>
+                    <td> header_footer.css (line 27) </td>
+                </tr>
+                <tr>
+                    <td> display: block </td>
+                    <td> changing the display type of to block </td>
+                    <td> header_footer.css (line 17, 73), index.css (line 6, 13, 19, 29, 35, 45, 61, 67), about.css (line 9, 13, 28, 32, 46, 50, 65, 69),
+                         apply.css (line 75, 129), printApply.css (line 9, 43), visit.css (line 70, 75, 80, 86), program.css 
+                        (line 4, 11, 19, 26, 52, 59) </td>
+                </tr>
+                <tr>
+                    <td> display: inline-block </td>
+                    <td> changing the display type to inline-block </td>
+                    <td> header_footer.css (line 53), apply.css (line 4, 28) </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <table class="table2">
+            <thead>
+                <tr>
+                    <th> Explanation </th>
+                    <th> Used in File </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="subtitle"> POSITIONING SCHEMES </td>
+                </tr>
+                <tr>
+                    <td> using relative in footer and table </td>
+                    <td> header_footer.css (line 77), apply.css (line 19, 43, 57, 97, 133), printApply.css (line 27)
+                        visit.css (line 93), program.css (line 33, 43, 66, 75) </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="subtitle"> CSS3 TECHNIQUES </td>
+                </tr>
+                <tr>
+                    <td> gradient color for background </td>
+                    <td> header_footer.css (line 14, 15, 39, 40) </td>
+                </tr>
+                <tr>
+                    <td> round corner for border using border-radius </td>
+                    <td> apply.css (line 9, 15, 33, 39, 53, 77, 120), printApply.css (line 39) </td>
+                </tr>
+                <tr>
+                    <td> using animation for the header title making it glowing </td>
+                    <td> header_footer.css (line 8-10, 27) </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="subtitle"> STYLE </td>
+                </tr>
+                <tr>
+                    <td> header, footer, and navigation bar style </td>
+                    <td> header_footer.css </td>
+                </tr>
+                <tr>
+                    <td> per page style </td>
+                    <td> index.css for index.html, about.css for aboutpage.html, apply.css for applypage.html, visit.css for visitpage.html, program.css for 
+                        informationpage.html, contact.css for contactpage.html, design.css for designpage.html, printApply.css for applypage.html to be printed </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+
+        <h2> Explanation of Javascript Techniques </h2>
+        <table class="table3">
+            <thead>
+                <tr>
+                    <th> Techniques </th>
+                    <th> Explanation </th>
+                    <th> Used in File </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3" class="subtitle"> OVERALL </td>
+                </tr>
+                <tr>
+                    <td> document.addEventListener("DOMContentLoaded", function() {}); </td>
+                    <td> This function waits until the DOM (Document Object Model) has fully loaded before running the code inside it and ensuring that all elements in the HTML document are ready </td>
+                    <td> information.js, visit.js (line 1), apply.js (line 67) </td>
+                </tr>
+                <tr> 
+                    <td> document.getElementbyId(""); </td>
+                    <td> This function returns the element with the specified ID </td>
+                    <td> information.js (line 2-3), visit.js (line 2-7), apply.js (line 21-22, 46-47, 70-72, 102) </td>
+                </tr>
+                <tr>
+                    <td> .innerHTML </td>
+                    <td> To add or change string in HTML </td>
+                    <td> information.js (line 12, 19, 29, 38), visit.js (line 15, 20, 27, 31, 37),
+                        apply.js (line 23, 24, 48, 49, 95, 102, 118, 122, 132-134) </td>
+                </tr>
+                <tr>
+                    <td> document.querySelectorAll("") </td>
+                    <td> This function select all elements with the same class </td>
+                    <td> apply.js (line 68, 69, 132, 133) </td>
+                </tr>
+                <tr> 
+                    <td> Math.floor(Math.random()) </td>
+                    <td> Randomly pick an index from the array </td>
+                    <td> information.js (line 11) </td>
+                </tr>
+                <tr>
+                    <td> setInterval </td>
+                    <td> This function calls a function or executes a code repeatedly with a fixed time delay </td>
+                    <td> information.js (line 21) </td>
+                </tr>
+                <tr>
+                    <td> .addEventListener("ended", function() {}); </td>
+                    <td> This function listens for the "ended" event of the video and calls the function inside it </td>
+                    <td> information.js (line 31) </td>
+                </tr>
+                <tr>
+                    <td> .load() & .play() </td>
+                    <td> This function loads the video and plays it </td>
+                    <td> information.js (line 39-40) </td>
+                </tr>
+                <tr>
+                    <td> .setAttribute() </td>
+                    <td> To change the attribute of the element in HTML </td>
+                    <td> visit.js (line 14, 19), apply.js (line 75-78, 84-88, 96, 119, 123) </td>
+                </tr>
+                <tr>
+                    <td> .isInteger </td>
+                    <td> To check if a number is an integer </td>
+                    <td> visit.js (line 18), apply.js (line 37) </td>
+                </tr>
+                <tr>
+                    <td> .push() </td>
+                    <td> To add an element to the declared array </td>
+                    <td> apply.js (line 44-45, 104-113) </td>
+                </tr>
+                <tr>
+                    <td> .forEach(element => {}); </td>
+                    <td> This function is used to execute for each element in the array </td>
+                    <td> apply.js (line 132-133) </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="subtitle"> WAYS OF EVENT HANDLER SETUP </td>
+                </tr>
+                <tr>
+                    <td> onclick (inline method in HTML) </td>
+                    <td> This method is used to attach an onclick event handler directly to an HTML element </td>
+                    <td> applypage.html (line 45, 52, 59, 66, 73, 82, 89, 96, 105, 112, 119, 126) </td>
+                </tr>
+                <tr>
+                    <td> .onclick = function() (in javascript) </td>
+                    <td> This function listens for the "click" event of the button and calls the function inside it </td>
+                    <td> visit.js (line 9, 36), apply.js (line 82, 92, 128) </td>
+                </tr>
+                <tr>
+                    <td> .onload = function() (in javascript) </td>
+                    <td> This function listens for the "load" event of the window and calls the function inside it </td>
+                    <td> apply.js (line 74) </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="subtitle"> ES6 FEATURES </td>
+                </tr>
+                <tr>
+                    <td> let </td>
+                    <td> Declare a variable that can not be redeclared </td>
+                    <td> information.js (line 2-3, 11, 28), visit.js (line 2-7, 10-12, 24), apply.js (line 1-3, 21-22, 28-29, 46-47, 68-72, 93, 100) </td>
+                </tr>
+                <tr>
+                    <td> const </td>
+                    <td> Declare a variable that should not be changed (such as declare array, object, function, etc.) </td>
+                    <td> information.js (line 5, 23), apply.js (line 5) </td>
+                </tr>
+                <tr>
+                    <td> map </td>
+                    <td> creates a map object -> collections of key-value pairs </td>
+                    <td> apply.js (line 5-18) </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <img src="../images/footer_logo.png" alt="Visionary Innovation Hub Footer Logo">
+        <p> &copy; CityU 2024 - sources of image and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by
+        <a href="./designpage.html"><span> WANGSADJAJA Arista </span></a></p>
+    </footer>
+</body>
+</html>
