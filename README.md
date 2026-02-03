@@ -5,7 +5,7 @@ A modern, interactive website for an innovation organization featuring multiple 
 
 ## Quick Start
 1) Download all the files
-2) Open ```text index.html ``` in any web browser available in your computer
+2) Open ```index.html``` in any web browser available in your computer
 3) Use the navigation menu to explore all the pages
 
 ## File Structure
@@ -61,4 +61,4 @@ visionary-innovation-hub/
 7) Visit - Interactive booking system and address
 
 ## Setup
-No installation required! Simply open index.html in a web browser to start using the website.
+No installation required! Simply open ```index.html``` in a web browser to start using the website.
