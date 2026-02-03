@@ -51,5 +51,14 @@ visionary-innovation-hub/
 - CSS
 - Javascript
 
+## Pages Summary
+1) Home - Welcome and introduction
+2) About - Basic information
+3) Apply - Interactive internship ranking
+4) Contact - Contact information
+5) Design - Showcase of CSS and Javascript technique
+6) Information - Dynamic content with rotating texts and videos
+7) Visit - Interactive booking system and address
+
 ## Setup
 No installation required! Simply open index.html in a web browser to start using the website.
